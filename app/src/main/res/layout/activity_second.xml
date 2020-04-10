@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/LL1"
+        android:orientation="vertical"
+        android:background="#7B33FB">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/personName"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="Enter Name"
+            android:textColorHint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:inputType="text"
+            android:maxLength="20"
+            android:singleLine="true"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/personAddress"
+            android:layout_below="@id/personName"
+            android:layout_marginStart="10dp"
+            android:textColorHint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:layout_marginEnd="10dp"
+            android:hint="Enter Address"
+            android:inputType="text"
+            android:maxLength="20"
+            android:singleLine="true"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/personPhone"
+            android:layout_below="@id/personAddress"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textColorHint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:hint="Enter Phone"
+            android:inputType="text"
+            android:maxLength="20"
+            android:singleLine="true"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/personId"
+            android:textColorHint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:layout_below="@id/personPhone"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="Enter the Document ID"
+            android:inputType="text"
+            android:maxLength="20"
+            android:singleLine="true"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:text="Save Data to Firebase"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@id/LL1"
+        android:onClick="addValuesToFireBase"
+        android:padding="10dp"
+        />
+
+
+</RelativeLayout>

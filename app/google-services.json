@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "865246971876",
+    "firebase_url": "https://task6april.firebaseio.com",
+    "project_id": "task6april",
+    "storage_bucket": "task6april.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865246971876:android:452839b4cc24c32e28e9f1",
+        "android_client_info": {
+          "package_name": "com.s.task6april"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865246971876-m7efuf9hfm1noarqm756hqkjv9sl7qbq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.s.task6april",
+            "certificate_hash": "2db2669f49d7a692cbefe43e3154b85b592adf99"
+          }
+        },
+        {
+          "client_id": "865246971876-mlilgkon859dd78gg80kcglhjppjbmmj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoJliWzfvyoYxHK8UYpwU8-9nssBV_XmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865246971876-mlilgkon859dd78gg80kcglhjppjbmmj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

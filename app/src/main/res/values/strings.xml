@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Task6April</string>
+    <string name="wait">Please wait for some time</string>
+    <string name="string">Upload data to firebase</string>
+</resources>
